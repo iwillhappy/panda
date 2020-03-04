@@ -1,0 +1,227 @@
+.content{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	letter-spacing: 0.5px;
+}
+.user-top{
+	width:100%;
+	height:458upx;
+	background:rgba(17,23,57,1);
+	opacity:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.top-tool{
+	width: calc(100% - 102upx);
+	height: 37upx;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	margin-top: 100upx;
+	/* #ifdef H5 || MP-WEIXIN */
+	margin-top: 40upx;
+	/* #endif */
+	position: relative;
+}
+.captial-back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 58upx;
+	height: 58upx;
+}
+.captial-title{
+	font-size: 20px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	opacity:1;
+}
+.cash{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 16px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	opacity:1;
+	z-index: 10;
+}
+.captial-bg1{
+	position: absolute;
+	top: 42upx;
+	left: 71upx;
+	z-index: 2;
+	width: 212upx;
+	height: 123upx;
+}
+.captial-bg2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	width: 276upx;
+	height: 221upx;
+}
+
+
+
+
+/*bottom*/
+.user-bottom{
+	
+	width: 100%;
+	height: calc(100% - 250upx);
+	position: absolute;
+	top: 250upx;
+	left: 0;
+	z-index: 11;
+	/* #ifdef APP-PLUS */
+	height: calc(100% - 335upx);
+	top: 335upx;
+	/* #endif */
+
+	background: #FFFFFF;
+	/* box-shadow:0px 27upx 27upx rgba(0,0,0,0.16); */
+	opacity:1;
+	/* border-radius:65upx 65upx 0px 0px; */
+	border-top-right-radius: 65upx;
+	border-top-left-radius: 65upx;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.bottom-type{
+	width: calc(100% - 88upx);
+	height:235upx;
+	background:rgba(255,255,255,1);
+	opacity:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 45upx;
+	border-top-left-radius: 65upx;
+	border-top-right-radius: 65upx;
+}
+.capital-type{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+	margin-top: 51upx;
+}
+.type-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.type-item-title{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	color:rgba(244,99,122,1);
+	opacity:1;
+	margin-bottom: 10upx;
+}
+.type-item-num{
+	font-size:19px;
+	font-family:Roboto;
+	font-weight:bold;
+	color:rgba(21,24,26,1);
+	opacity:1;
+}
+.captial-nav{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 35upx;
+}
+.captial-nav-item{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	height: 50upx;
+	line-height: 50upx;
+	
+}
+.captial-nav-item:nth-child(1){
+	margin-left: 75upx;
+	margin-right: 185upx;
+}
+.captial-slected{
+	color: #F4637A;
+	border-bottom: 7upx solid #F4637A;
+}
+.list-block{
+  width: calc(100% - 88upx);
+	height: calc(100% - 265upx);
+	
+	background: #F0F3F7;
+	padding: 0 45upx;
+	padding-top: 30upx;
+}
+.swiper,.swiper-item{
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.list-item{
+	width: 100%;
+	height: 100upx;
+	border-bottom: 1px solid rgba(114,124,142,0.1);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.item-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.item-title{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:36upx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	margin-bottom: 10upx;
+}
+.item-time{
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25upx;
+	color:rgba(177,184,193,1);
+	opacity:1;
+}
+.item-captial-num{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:36upx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+}

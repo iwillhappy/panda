@@ -1,0 +1,135 @@
+.content{
+	width: 100%;
+	min-height: calc(100% - 158upx);
+	/* height: 100%; */
+	background:#F0F3F7;
+	padding-top: 158upx;
+	/* #ifdef H5 */
+	min-height: calc(100% - 118upx);
+	padding-top: 118upx;
+	/* #endif */
+	/* #ifdef MP-WEIXIN */
+	padding-top: 0;
+	min-height: 100%;
+	/* #endif */
+	letter-spacing: 0.5px;
+	height: auto;
+}
+
+.message-title{
+	width: 100%;
+	height: 78upx;
+	display: inline-block;
+	padding-top: 80upx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef H5 */
+	height: 78upx;
+	padding-top: 40upx;
+	/* #endif */
+	background:#F0F3F7;
+	
+	z-index: 10;
+}
+.list-scroll-content{
+    height:calc(100% - 45upx);
+		padding: 45upx 51upx 0 51upx;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background: #F0F3F7;
+}
+
+.order-back-edit{
+	width: 100%;
+	height: 656upx;
+	position: relative;
+}
+.order-back-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.order-back-block{
+	width: 100%;
+	height: 480upx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.order-back-title{
+	height:49upx;
+	font-size:18px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:49upx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	margin: 114upx 0 10upx 0;
+}
+.small-text{
+	height:36upx;
+	font-size:13px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:36upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+}
+.order-back-input{
+	width:569upx;
+	height:72upx;
+	background:rgba(240,243,247,1);
+	border:1px solid rgba(225,228,234,1);
+	opacity:1;
+	border-radius:36upx;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 69upx;
+}
+.order-back-input::-webkit-input-placeholder{
+	color: #B1B8C1;
+}
+.order-back-btn{
+	width: 732upx;
+	height: 236upx;
+	position: absolute;
+	bottom: -80upx;
+	left: -40upx;
+}
+.order-back-step{
+	width: 293upx;
+	height: 31upx;
+	margin: 0 auto;
+	margin-top: 56upx;
+	margin-bottom: 63upx;
+}
+.step{
+	height:36upx;
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:36upx;
+	color:#111739;
+	opacity:1;
+}
+.color-pink{
+	color: #F4637A;
+}
+.order-back-setp-01{
+	width: 100%;
+	height: 558upx;
+	margin-top: 18upx;
+}

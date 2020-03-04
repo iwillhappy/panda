@@ -1,0 +1,224 @@
+.content{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 158upx;
+	height: calc(100% - 158upx);
+	/* #ifdef H5 */
+	padding-top: 118upx;
+	height: calc(100% - 118upx);
+	/* #endif */
+	
+	/* #ifdef MP-WEIXIN */
+	padding-top: 0;
+	height: 100%;
+	/* #endif */
+	letter-spacing:0.5px;
+}
+.message-title{
+	width: 100%;
+	height: 78upx;
+	display: inline-block;
+	padding-top: 80upx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef H5 */
+	height: 78upx;
+	padding-top: 40upx;
+	/* #endif */
+	background: #FFFFFF;
+	
+	z-index: 10;
+}
+
+
+.scroll-box{
+	width: 100%;
+	height:100% ;
+	
+}
+/* .goodsList{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background: pink;
+} */
+.item-share{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #F0F3F7;
+	
+}
+.share-user{
+	width: calc(100% - 51upx);
+	padding: 0 51upx;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.share-user-img{
+	width: 152upx;
+	height: 152upx;
+}
+.share-user-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.user-type{
+	height:36upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:36upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+	margin-bottom: 8upx;
+}
+.share-time{
+	height:31upx;
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:31upx;
+	color:rgba(177,184,193,1);
+	opacity:1;
+	
+}
+.share-btn{
+	width: 232upx;
+	height: 109upx;
+}
+.special-page{
+	width: calc(100% - 100upx);
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 50upx;
+	padding-bottom: 33upx;
+}
+.special-page-btn{
+	width: 236upx;
+	height: 60upx;
+}
+/*一键分享*/
+.share-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:659upx;
+	height:auto;
+	background:rgba(240,243,247,1);
+	opacity:1;
+	border-radius:18px;
+	margin: 51upx 0 105upx 0;
+	padding: 31upx 0;
+	
+}
+.share-block-text{
+	width:calc(100% - 68upx) ;
+	height:auto;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:40upx;
+	color:rgba(107,119,141,1);
+	letter-spacing:0.5px;
+	opacity:1;
+	margin: 0 0 20upx 0;
+}
+.share-button{
+	width: 200upx;
+	height: 65upx;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 65upx;
+	background: #F4637A;
+	border-radius: 50upx;
+}
+
+	/* 底部分享 */
+	.uni-share {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		flex-direction: column;
+		/* #endif */
+		background-color: #fff;
+	}
+
+	.uni-share-title {
+		line-height: 60rpx;
+		font-size: 24rpx;
+		padding: 15rpx 0;
+		text-align: center;
+	}
+
+	.uni-share-content {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 15px;
+	}
+
+	.uni-share-content-box {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		flex-direction: column;
+		align-items: center;
+		width: 20%;
+	}
+
+	.uni-share-content-image {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 60rpx;
+		height: 60rpx;
+		overflow: hidden;
+		border-radius: 10rpx;
+	}
+
+	.content-image {
+		width: 60rpx;
+		height: 60rpx;
+	}
+
+	.uni-share-content-text {
+		font-size: 26rpx;
+		color: #333;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+
+	.uni-share-btn {
+		height: 90rpx;
+		line-height: 90rpx;
+		font-size: 14px;
+		border-top-color: #f5f5f5;
+		border-top-width: 1px;
+		border-top-style: solid;
+		text-align: center;
+		color: #666;
+	}

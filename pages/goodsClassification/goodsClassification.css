@@ -1,0 +1,147 @@
+.search-detail{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.search-detail-top{
+	width: 100%;
+	height: 72upx;
+	margin-top: 100upx;
+	/* #ifdef H5 */
+	margin-top: 20upx;
+	/* #endif */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.goback{
+	width: 58upx;
+	height: 58upx;
+	margin: 0 75upx 0 29upx;
+}
+.search-box{
+	width:507upx;
+	height:72upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9upx 18upx rgba(0,0,0,0.16);
+	opacity:1;
+	border-radius:18upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+.close-btn{
+	position: absolute;
+	right: 12upx;
+	top: 20upx;
+	width: 32upx;
+	height: 32upx;
+}
+.search-icon{
+	width: 24upx;
+	height:24upx ;
+	margin: 0 18upx 0 25upx;
+}
+.search-input{
+	width:75% ;
+	height: 60upx;
+	background: #FFFFFF;
+	font-size: 14px;
+	color: #333333;
+	line-height: 30upx;
+	border: none;
+	outline: none;
+}
+.input-placeholder{
+	height:30upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(107,119,141,1);
+	opacity:0.5;
+}
+
+/*分类滚动区域*/
+.classification-box{
+	width: 100%;
+	height:calc(100% - 192upx) ;
+	/* #ifdef H5 */
+	height: calc(100% - 132upx);
+	/* #endif */
+	
+	/* #ifdef */
+	height: calc(100% - 40upx);
+	/* #endif */
+	
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: 40upx;
+}
+
+.left-bar{
+	width:190upx;
+	height: 100%;
+	background: rgba(249,249,249,1);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-items: flex-start;
+}
+.goods-item{
+	width: 100%;
+	height:80upx;
+	opacity:1;
+	line-height: 80upx;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	border-bottom: 2upx solid #FFFFFF;
+}
+.slected-nav{
+	background: #FFFFFF;
+	color: #F4637A;
+}
+/*右侧*/
+.rigth-content{
+	width: calc(100% - 190upx);
+	height: 100%;
+	background: #FFFFFF;
+	
+}
+.content-view{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.goods-box{
+	width: 33.33%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30upx;
+}
+.goods-mainImg{
+	width: 100upx;
+	height: 100upx;
+}
+.goods-name{
+	font-size: 14px;
+	color: #333333;
+	margin-top: 10upx;
+}

@@ -1,0 +1,224 @@
+.content{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	padding-top: 158upx;
+	/* #ifdef H5 */
+	padding-top: 118upx;
+	/* #endif */
+	/* #ifdef MP-WEIXIN */
+	padding-top: 0;
+	/* #endif */
+	letter-spacing: 0.5px;
+	
+}
+.message-title{
+	width: 100%;
+	height: 78upx;
+	display: inline-block;
+	padding-top: 80upx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef H5 */
+	height: 78upx;
+	padding-top: 40upx;
+	/* #endif */
+	background: #FFFFFF;
+	
+	z-index: 10;
+}
+.list-scroll-content{
+    height: auto;
+		padding: 0upx 65upx 0 33upx;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		background: #FFFFFF;
+}
+.nopadding{
+	padding: 0;
+}
+/*签到中心*/
+.sign-day{
+	width:670upx;
+	height:380upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 18upx 36upx rgba(126,126,126,0.3);
+	opacity:1;
+	border-radius:27upx;
+	margin: 30upx 0 36upx 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sign-baseInfo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.sign-baseInfo-totalcoin{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.baseinfo-user-icon{
+	width: 73upx;
+	height: 73upx;
+}
+.user-conin-title{
+	height:31upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+	margin: 24upx 0 10upx 0;
+}
+.user-conin-num{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.coin-number{
+	height:51upx;
+	font-size:17px;
+	font-family:Roboto;
+	font-weight:bold;
+	line-height:47upx;
+	color:rgba(21,24,26,1);
+	margin-right: 10upx;
+}
+.money-tag{
+	height:22upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25upx;
+	color:rgba(17,26,42,1);
+	opacity:1;
+}
+.signborder{
+  padding-left: 67upx;
+	border-left: 1px solid #f4f7fd;
+}
+.paddingLeft{
+	padding-right: 67upx;
+}
+.sign-btn{
+	width: 350upx;
+	height: 80upx;
+	background:linear-gradient(180deg,rgba(235,86,115,1) 0%,rgba(255,197,136,1) 100%);
+	text-align: center;
+	line-height: 80upx;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 50upx;
+	margin-top: 30upx;
+}
+/*签到奖励金*/
+.sign-bonus{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 36upx;
+}
+.sign-bonus-title{
+	width: 100%;
+	height:31upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25upx;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin-bottom: 18upx;
+}
+.special-color{
+	color: #F4637A;
+}
+.bouns-type{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.bouns-type-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.days7-bouns{
+	width: 119upx;
+	height: 116upx;
+}
+.days{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25upx;
+	color:rgba(244,99,122,1);
+}
+.bouns-btn{
+	width: 138upx;
+	height: 43upx;
+	border-radius: 50upx;
+	border: 2px solid #fdd183;
+	background:#ffe2a8 ;
+	color: #f5812e;
+	line-height: 43upx;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 20upx;
+}
+.days15-bouns{
+	width:147upx ;
+	height: 116upx;
+}
+.days15{
+	margin: 0 54upx 0 54upx;
+}
+.days30-bouns{
+	width:163upx ;
+	height: 116upx;
+}
+/*签到成功*/
+.sign-success{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 12;
+	background:rgba(17,23,57,0.75);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.sign-success-img{
+	width:620upx;
+	height: 541upx;
+}
+.sign-close{
+	width:53upx ;
+	height: 53upx;
+	margin-top: 62upx;
+}

@@ -1,0 +1,43 @@
+.search-list{
+	width: 100%;
+	height: calc(100% - 281upx );
+	/* #ifdef H5 */
+	height: calc(100% - 221upx );
+	/* #endif */
+	position: absolute;
+	left: 0;
+	top: 281upx;
+	/* #ifdef H5 */
+	top: 221upx;
+	/* #endif */
+	
+	/* #ifdef MP-WEIXIN */
+	height: calc(100% - 102upx);
+	top:102upx;
+	/* #endif */
+	background: #FFFFFF;
+}
+.fixedEle{
+	width: 100%;
+	height: 20upx;
+	background: #f4f7fd;
+	/* #ifdef MP-WEIXIN */
+	margin-top: 20upx;
+	/* #endif */
+}
+.scroll-box{
+	width: 100%;
+	height: calc(100% - 20upx);
+	background: #FFFFFF;
+}
+.list-item{
+	width: calc(100% - 80upx);
+	height: 80upx;
+	line-height:80upx;
+	border-bottom: 1px solid #f4f7fd;
+	padding: 0 40upx;
+	font-size: 14px;
+	color: #333333;
+	list-style: none;
+	letter-spacing: 0.5px;
+}

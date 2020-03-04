@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "提现",
+  "usingComponents": {
+    "common-title": "/components/titile/title",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

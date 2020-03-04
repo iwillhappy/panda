@@ -1,0 +1,32 @@
+
+.top-nav{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top-nav-item{
+	height: 40rpx;
+	opacity:1;
+	border-radius:24rpx;
+	text-align: center;
+	font-size: 14px;
+	padding: 0 18rpx;
+	line-height: 40rpx;
+	color: #6B778D;
+}
+.top-nav-selected{
+	background:rgba(244,99,122,1);
+	color: #FFFFFF;
+}
+

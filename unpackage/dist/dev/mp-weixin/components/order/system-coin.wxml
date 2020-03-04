@@ -1,0 +1,1 @@
+<view class="system-coin"><view class="s-top"><image class="order-shop-icon" src="../../static/common/order-shop-icon.png"></image><view class="order-shop-text"><view class="coin-source">使用熊猫优选完成首笔订单即可获得奖励</view><view class="xishou-btn">新手奖励</view></view></view><view class="s-bottom"><view class="coin-num">奖励鼓励金：1</view><view class="coin-status">完成后发放</view></view></view>

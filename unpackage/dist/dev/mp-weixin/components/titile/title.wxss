@@ -1,0 +1,35 @@
+
+.title-box{
+	width: 100%;
+	height: 58rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+}
+.goback{
+	position: absolute;
+	width: 58rpx;
+	height: 58rpx;
+	left: 65rpx;
+	top: 0;
+}
+.title-text{
+	font-size:20px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(244,99,122,1);
+	opacity:1;
+}
+
+

@@ -1,0 +1,301 @@
+.content{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	padding-top: 158rpx;
+	
+	
+	padding-top: 0;
+	
+	letter-spacing: 0.5px;
+}
+.message-title{
+	width: 100%;
+	height: 78rpx;
+	display: inline-block;
+	padding-top: 80rpx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	background: #FFFFFF;
+	
+	z-index: 10;
+}
+.list-scroll-content{
+    height: auto;
+		padding: 0rpx 65rpx 0 33rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		        justify-content: flex-start;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		background: #FFFFFF;
+}
+.nopadding{
+	padding: 0;
+}
+/*签到中心*/
+.sign-day{
+	width:670rpx;
+	height:380rpx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 18rpx 36rpx rgba(126,126,126,0.3);
+	opacity:1;
+	border-radius:27rpx;
+	margin: 30rpx 0 36rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.sign-baseInfo{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.sign-baseInfo-totalcoin{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.baseinfo-user-icon{
+	width: 73rpx;
+	height: 73rpx;
+}
+.user-conin-title{
+	height:31rpx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25rpx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+	margin: 24rpx 0 10rpx 0;
+}
+.user-conin-num{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.coin-number{
+	height:51rpx;
+	font-size:17px;
+	font-family:Roboto;
+	font-weight:bold;
+	line-height:47rpx;
+	color:rgba(21,24,26,1);
+	margin-right: 10rpx;
+}
+.money-tag{
+	height:22rpx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25rpx;
+	color:rgba(17,26,42,1);
+	opacity:1;
+}
+.signborder{
+  padding-left: 67rpx;
+	border-left: 1px solid #f4f7fd;
+}
+.paddingLeft{
+	padding-right: 67rpx;
+}
+.sign-btn{
+	width: 350rpx;
+	height: 80rpx;
+	background:-webkit-linear-gradient(top,rgba(235,86,115,1) 0%,rgba(255,197,136,1) 100%);
+	background:linear-gradient(180deg,rgba(235,86,115,1) 0%,rgba(255,197,136,1) 100%);
+	text-align: center;
+	line-height: 80rpx;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 50rpx;
+	margin-top: 30rpx;
+}
+/*签到奖励金*/
+.sign-bonus{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 36rpx;
+}
+.sign-bonus-title{
+	width: 100%;
+	height:31rpx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25rpx;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin-bottom: 18rpx;
+}
+.special-color{
+	color: #F4637A;
+}
+.bouns-type{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bouns-type-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.days7-bouns{
+	width: 119rpx;
+	height: 116rpx;
+}
+.days{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:25rpx;
+	color:rgba(244,99,122,1);
+}
+.bouns-btn{
+	width: 138rpx;
+	height: 43rpx;
+	border-radius: 50rpx;
+	border: 2px solid #fdd183;
+	background:#ffe2a8 ;
+	color: #f5812e;
+	line-height: 43rpx;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 20rpx;
+}
+.days15-bouns{
+	width:147rpx;
+	height: 116rpx;
+}
+.days15{
+	margin: 0 54rpx 0 54rpx;
+}
+.days30-bouns{
+	width:163rpx;
+	height: 116rpx;
+}
+/*签到成功*/
+.sign-success{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 12;
+	background:rgba(17,23,57,0.75);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.sign-success-img{
+	width:620rpx;
+	height: 541rpx;
+}
+.sign-close{
+	width:53rpx;
+	height: 53rpx;
+	margin-top: 62rpx;
+}
+

@@ -1,0 +1,213 @@
+.content{
+	width: 100%;
+	height: calc(100% - 158rpx);
+	background: #FFFFFF;
+	padding-top: 158rpx;
+	
+	
+	padding-top: 0;
+	
+}
+.message-title{
+	width: 100%;
+	height: 78rpx;
+	display: inline-block;
+	padding-top: 80rpx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	background: #FFFFFF;
+	
+	z-index: 10;
+}
+.list-scroll-content{
+    height: 100%;
+		padding: 0rpx 65rpx 0 33rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		        justify-content: flex-start;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		        align-items: flex-start;
+		background: #FFFFFF;
+}
+.nopadding{
+	padding: 0;
+}
+.message-item{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 20rpx;
+}
+.message-icon{
+	width: 152rpx;
+	height: 152rpx;
+}
+.message-detail{
+	width: calc(100% - 152rpx);
+	border-bottom: 1px solid #f4f7fd;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 20rpx 0;
+}
+.msg-detail-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.big-title{
+	color: #515C6F;
+	font-size: 16px;
+	font-weight: 500;
+}
+.small-title{
+	color: #B1B8C1;
+	font-size: 14px;
+	margin-top: 10rpx;
+}
+.message-time{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+.msg-time{
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:300;
+	color:rgba(81,92,111,1);
+	opacity:0.5;
+}
+.un-readMsg{
+	width: 16rpx;
+	height: 16rpx;
+	margin-top: 10rpx;
+}
+/*公告详情*/
+.messageDetail{
+	width:620rpx;
+	height:auto;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9rpx 36rpx rgba(0,0,0,0.16);
+	opacity:1;
+	border-radius:27rpx;
+	margin: 91rpx 65rpx 0 65rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.notice{
+	width: 100%;
+	font-size:16px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:40rpx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	text-align: center;
+	margin: 30rpx 0 20rpx 0;
+	letter-spacing: 0.5px;
+}
+.notice-time{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	letter-spacing: 0.5px;
+}
+.notice-time-day,.notice-time-hours{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31rpx;
+	color:rgba(177,184,193,1);
+	opacity:1;
+}
+.notice-time-day{
+	margin-right: 10rpx;
+}
+.notice-text{
+	width: calc(100% - 80rpx);
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:50rpx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	margin: 30rpx 0 20rpx 0;
+	padding: 0 40rpx;
+	letter-spacing: 0.5px;
+}
+

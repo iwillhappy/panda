@@ -1,0 +1,1 @@
+<view class="search-list"><view class="fixedEle"></view><scroll-view class="scroll-Y scroll-box" scroll-y="true"><view class="list-item">橘子啊</view><view class="list-item">橘子啊</view></scroll-view></view>

@@ -1,0 +1,130 @@
+.goods{
+	width:344upx;
+	height:516upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9px 18px rgba(0,0,0,0.1);
+	opacity:1;
+	border-radius:18upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 22upx;
+}
+.good-img{
+	width: 100%;
+	height: 335upx;
+	border-top-left-radius: 18upx;
+	border-top-right-radius: 18upx;
+}
+.good-name{
+	width:308upx;
+	height:50upx;
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:400;
+	line-height:25px;
+	color:rgba(17,26,42,1);
+	opacity:1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top:7upx ;
+	margin-bottom: 10upx;
+	padding: 0 8upx;
+}
+.good-shop{
+	width: 100%;
+	height: 50upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.good-source-icon{
+	width: 29upx;
+	height: 29upx;
+	margin-left: 8upx;
+}
+.good-shopname{
+	width:149upx;
+	height:45upx;
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:500;
+	line-height:22px;
+	color:rgba(17,26,42,1);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	opacity:1;
+	margin-left: 9upx;
+	margin-right: 50upx;
+}
+.good-quan{
+	width: 109upx;
+	height: 35upx;
+	background-image: url(../../static/common/quan-bg.png);
+	background-size: cover;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 35upx;
+	margin-right: 8upx;
+}
+.good-price{
+	width: 100%;
+	height: 50upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.after-quan{
+/* 	width: 120upx; */
+	height:45upx;
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:600;
+	line-height:45upx;
+	color:rgba(51,51,51,1);
+	opacity:1;
+	margin-left: 8upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.quan-detail{
+	/* width: 100upx; */
+	/* height:50upx; */
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:600;
+	line-height:38px;
+	color:rgba(255,119,119,1);
+	opacity:1;
+	/* line-height: 50upx; */
+}
+.zhuang{
+	width: 120upx;
+	height: 42upx;
+	background-image: url(../../static/common/earn-bg.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 8upx;
+}
+.coin{
+	font-size: 8px;
+	color: #FFFFFF;
+}
+.zhuang-detail{
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family:Times New Roman;
+	font-weight:bold;
+	margin-right: 20upx;
+}

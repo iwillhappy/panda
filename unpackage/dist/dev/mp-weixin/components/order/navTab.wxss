@@ -1,0 +1,98 @@
+
+.navTabBox{
+	width: 100%;
+	height: 50rpx;
+}
+.longTab{
+	width: 100%;
+	height: 50rpx;
+}
+.box-nav{
+	width: 100%;
+	height: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content:space-around;
+	        justify-content:space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.longItem{
+	display: inline-block;
+	width: auto;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size:16px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(107,119,141,1);
+	opacity:1;
+}
+.click{
+	border-bottom:4px solid #F4637A;
+	color: #F4637A;
+}
+/* // .navTabBox {
+// 	width: 100vw;
+// 	color: rgba(255, 255, 255, 0.50);
+// 	.click {
+// 		color: white;
+// 	}
+// 	.longTab {
+// 		width: 100%;
+// 		.longItem{ 
+// 			height: 90upx; 
+// 			display: inline-block;
+// 			line-height: 90upx;
+// 			text-align: center;
+// 		}
+// 		.underlineBox {
+// 			height: 3px;
+// 			width: 20%;
+// 			display: flex;
+// 			align-content: center;
+// 			justify-content: center;
+// 			transition: .5s;
+// 			.underline {
+// 				width: 84upx;
+// 				height: 4px;
+// 				background-color: white;
+// 			}
+// 		}
+// 	}
+// 	.shortTab {
+// 		width: 100%;
+// 		.navTab {
+// 			display: flex;
+// 			width: 100%;
+// 			height: 90upx;
+// 			position: relative;
+// 			.navTabItem {
+// 				display: flex;
+// 				align-items: center;
+// 				justify-content: center;
+// 				width: 100%;
+// 				font-size: 28upx;
+// 			}
+// 		}
+// 		.underlineBox {
+// 			height: 3px;
+// 			display: flex;
+// 			align-content: center;
+// 			justify-content: center;
+// 			transition: .5s;
+// 			.underline {
+// 				width: 84upx;
+// 				height: 3px;
+// 				background-color: white;
+// 			}
+// 		}
+// 	}
+// } */
+

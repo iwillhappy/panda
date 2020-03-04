@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "签到中心",
+  "usingComponents": {
+    "common-title": "/components/titile/title",
+    "model-calendar": "/components/calendar/calendar"
+  }
+}

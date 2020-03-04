@@ -1,0 +1,244 @@
+.content{
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.save-top-blcok{
+	width: 100%;
+	height:639upx;
+	background:linear-gradient(315deg,rgba(255,103,127,1) 0%,rgba(255,217,177,1) 100%);
+	opacity:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:center;
+}
+.save-title{
+	width: 100%;
+	text-align: center;
+	height:49upx;
+	font-size:20px;
+	font-family:zcoolqingkehuangyouti;
+	font-weight:400;
+	line-height:49upx;
+	color:rgba(255,255,255,1);
+	letter-spacing:5px;
+	opacity:1;
+	margin-top: 103upx;
+	/* #ifdef H5 || MP-WEIXIN */
+	margin-top: 40upx;
+	/* #endif */
+	margin-bottom: 29upx;
+}
+.save-search{
+	width:649upx;
+	height:91upx;
+	background:rgba(255,255,255,1);
+	border:7upx solid rgba(242,129,123,0.30196078431372547);
+	opacity:1;
+	border-radius:45upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 22upx;
+}
+.save-search-icon{
+	width: 24upx;
+	height: 24upx;
+	margin: 0 13upx 0 43upx;
+}
+.save-search-input{
+	height:31upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(107,119,141,1);
+	opacity:0.5;
+}
+.save-tags{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 118upx;
+	padding-right: 85upx;
+}
+.tag-item{
+	height:40upx;
+	border:2upx solid rgba(255,230,234,1);
+	opacity:1;
+	border-radius:27upx;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 40upx;
+	padding: 0 25upx;
+	margin-right: 36upx;
+	margin-bottom: 14upx;
+}
+.save-tabBar{
+	width: 100%;
+	height: 100upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+}
+.tabar-zhibo{
+	/* width: 94upx; */
+	height: 100%;
+	
+	font-size: 16px;
+	color: #6B778D;
+	font-weight:500;
+	line-height: 100upx;
+	margin-right: 152upx;
+}
+.tabar-jiaocheng{
+	/* width:127upx; */
+	height:100%;
+	font-size:16px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	color: #6B778D;
+	line-height: 100upx;
+}
+.tabar-selected{
+	border-bottom: 7upx solid #F4637A;
+		color: #F4637A;
+}
+.zhibo-block{
+	width:calc(100% - 67upx );
+	height:766upx ;
+	background: #F0F3F7;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 67upx;
+	padding-top: 37upx;
+	
+
+}
+.zhibo-tag{
+	padding: 0 20upx;
+	padding-left: 10upx;
+	width: auto;
+	height:72upx;
+	display: inline-block;
+	background:rgba(255,255,255,1);
+	opacity:1;
+	border-radius:36upx;
+	margin: 14upx 0;
+}
+.tag-user{
+	width: 58upx;
+	height: 58upx;
+	margin-right: 20upx;
+	display: inline-block;
+	float: left;
+	margin-top: 7upx;
+}
+.tag-text{
+	font-size: 14px;
+	color: #6B778D;
+	display: inline-block;
+	float: left;
+	height: 72upx;
+	line-height: 72upx;
+}
+.text-name{
+	color: #4891E0;
+}
+.text-coin{
+	color: #FF6969;
+}
+/*教程*/
+.jiaocheng-block{
+	width: 100%;
+	height: auto;
+	background: #F0F3F7;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.jisocheng-intrduce{
+	width:750upx;
+	height:246upx;
+	background:rgba(240,243,247,1);
+	opacity:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.intrduce-title{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 29upx;
+	margin-bottom: 29upx;
+}
+.jiaocheng-title{
+	width: 293upx;
+	height: 31upx;
+}
+.intrduce-text{
+	width: calc(100% - 51upx);
+	height: auto;
+	padding-left: 51upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.intrduce-text-detail{
+	height:31upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	margin-bottom: 14upx;
+}
+.jiaocheng-step{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.step1{
+	width: 750upx;
+	height: 623upx;
+}
+.step2{
+	width: 750upx;
+	height: 682upx;
+}
+.step3{
+	width: 750upx;
+	height: 666upx;
+}
+.step4{
+	width: 750upx;
+	height: 690upx;
+}
+.step5{
+	width: 750upx;
+	height: 652upx;
+}

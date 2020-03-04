@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "关于熊猫优选",
+  "usingComponents": {
+    "common-title": "/components/titile/title"
+  }
+}

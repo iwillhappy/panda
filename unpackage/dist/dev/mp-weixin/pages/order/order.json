@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单明细",
+  "usingComponents": {
+    "refresh": "/components/order/refresh",
+    "nav-tab": "/components/order/navTab",
+    "tab-bar4": "/components/order/tabBar4",
+    "system-coin": "/components/order/system-coin",
+    "order-me": "/components/order/order-me",
+    "order-friend": "/components/order/order-friend"
+  }
+}

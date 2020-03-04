@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帮助与咨询",
+  "usingComponents": {
+    "common-title": "/components/titile/title"
+  }
+}

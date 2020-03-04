@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "9.9专区",
+  "usingComponents": {
+    "common-title-near": "/components/titile-near/title",
+    "top-nav": "/components/top-nav/top-nav",
+    "good": "/components/goods/good"
+  }
+}

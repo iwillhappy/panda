@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/guide",
+    "pages/optimization/optimization",
+    "pages/optimization/oneKeyShare",
+    "pages/saveMoney/saveMoney",
+    "pages/order/order",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/search/search",
+    "pages/search/searchDetail",
+    "pages/message/message",
+    "pages/message/messageDetail",
+    "pages/signIn/signin",
+    "pages/goodsClassification/goodsClassification",
+    "pages/newDriver/newDriver",
+    "pages/newDriver/questionDetail",
+    "pages/specialArea/specialArea",
+    "pages/user/user-info",
+    "pages/user/setting",
+    "pages/user/captial-mingx",
+    "pages/user/about-panda",
+    "pages/user/problem-feedback",
+    "pages/user/edit-pwd",
+    "pages/user/cash-withdrawal",
+    "pages/user/share-panda"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ff9dab",
+    "selectedColor": "#f4637a",
+    "borderStyle": "black",
+    "blurEffect": "extralight",
+    "backgroundColor": "#FFFFFF",
+    "fontSize": "12px",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabBar/home1.png",
+        "selectedIconPath": "static/tabBar/home2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/optimization/optimization",
+        "iconPath": "static/tabBar/you1.png",
+        "selectedIconPath": "static/tabBar/you2.png",
+        "text": "优选"
+      },
+      {
+        "pagePath": "pages/saveMoney/saveMoney",
+        "iconPath": "static/tabBar/tool1.png",
+        "selectedIconPath": "static/tabBar/tool2.png",
+        "text": "省钱工具"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/tabBar/car1.png",
+        "selectedIconPath": "static/tabBar/car2.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBar/me1.png",
+        "selectedIconPath": "static/tabBar/me2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

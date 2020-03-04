@@ -1,0 +1,1 @@
+<view class="title-box"><image class="goback" src="../../static/common/goback.png" data-event-opts="{{[['tap',[['gobackPage',['$event']]]]]}}" bindtap="__e"></image><view class="title-text">{{title}}</view></view>

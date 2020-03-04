@@ -1,0 +1,316 @@
+.content{
+	width: 100%;
+	min-height: 100%;
+	background: #FFFFFF;
+/* 	background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.top-edit{
+	width: calc(100% - 130upx);
+	height: 58upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: auto;
+	position: fixed;
+	top: 98upx;
+	left: 0;
+	padding: 0 65upx;
+	/* #ifdef H5 || MP-WEIXIN */
+	top: 36upx;
+	/* #endif */
+	z-index: 10;
+}
+.goos-back,.goos-edit{
+	width: 58upx;
+	height: 58upx;
+}
+.good-imgs{
+	width: 100%;
+	height: 750upx;
+}
+.goos-img{
+	width: 100%;
+	height: 100%;
+}
+.coupon{
+	width: 100%;
+	height: 274upx;
+	position: relative;
+}
+.coupon-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.coupon-detail{
+	position: absolute;
+	top:40upx;
+	left: 32upx;
+	width: 686upx;
+	height: 226upx;
+	z-index: 3;
+}
+.coupon-detail-bg{
+	width: 686upx;
+	height: 226upx;
+}
+.coupon-num{
+	position: absolute;
+	left: 20upx;
+	top: 0;
+	height: 90%;
+	width: 220upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.num-top{
+font-size:24px;
+font-family:Alibaba PuHuiTi;
+font-weight:bold;
+color:rgba(255,207,128,1);
+opacity:1;	
+}
+.icon{
+	font-size: 20upx;
+	color:rgba(255,207,128,1);
+	margin-right: 8upx;
+}
+.receive{
+	font-size:15px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(255,207,128,1);
+	opacity:1;
+}
+.coupon-time{
+	width: calc(100% - 220upx);
+	height: 90%;
+	position: absolute;
+	left: 220upx;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.start-time{
+	font-size:13px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+}
+.end-time{
+	font-size:13px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25upx;
+	color:rgba(177,184,193,1);
+	opacity:1;
+	margin-top: 15upx;
+}
+/**/
+.goos-title-block{
+	width: calc(100% - 66upx);
+	height: calc(240upx - 46upx);
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 24upx 33upx 22upx 33upx;
+}
+.good-title{
+	width: 100%;
+	height: auto;
+	position: relative;
+	line-height: 40upx;
+}
+.name-icon{
+	width: 30upx;
+	height: 30upx;
+	position: absolute;
+	left: 0;
+	top: 12upx;
+}
+.good-name{
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:400;
+	line-height: 30upx;
+	color:#333333;
+	opacity:1;
+	padding-left: 35upx;
+}
+.good-coupon{
+	height: 60upx;
+	width: 100%;
+	margin-top: 15upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.after-coupon{
+	font-size:10px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:36upx;
+	color:rgba(255,255,255,1);
+	opacity:1;
+	text-align: center;
+	color: #FFFFFF;
+	width:92upx;
+	height:36upx;
+	background:linear-gradient(339deg,rgba(235,86,115,1) 0%,rgba(255,197,136,1) 100%);
+	opacity:1;
+	border-radius:18upx;
+}
+.price{
+	font-size:20px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:60upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+	margin-left: 24upx;
+}
+.money-icon{
+	font-size: 13px;
+}
+.sale-volume{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:25upx;
+	color:rgba(177,184,193,1);
+	opacity:1;
+	margin-top: 10upx;
+}
+.recommend{
+	width:calc(750upx - 84upx);
+	height: auto;
+	background:rgba(240,243,247,1);
+	opacity:1;
+	padding: 22upx 42upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+.recommend-img{
+	width: 91upx;
+	height: 33upx;
+	margin-right: 16upx;
+	position: absolute;
+	left: 42upx;
+	top: 40upx;
+}
+.recommend-text{
+	font-size:11px;
+	font-family:PingFang SC;
+	font-weight:400;
+	line-height:30upx;
+	color:rgba(51,51,51,1);
+	opacity:1;
+	padding-left: 105upx;
+}
+/**/
+.goods-info{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.goos-info{
+	width: 100%;
+	height: 108upx;
+	margin-top: 56upx;
+}
+.bottom-btn{
+	width: calc(100% - 85upx);
+	height:109upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9upx 36upx rgba(0,0,0,0.25);
+	opacity:1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding:0 34upx 0 51upx;
+}
+.collection{
+	width: 38upx;
+	height: 58upx;
+}
+.btn-block{
+	margin-left: 33upx;
+	width:calc(100% - 71upx);
+	height: 80upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50upx;
+	box-shadow:0px 5upx 11upx rgba(0,0,0,0.16);
+}
+.share-btn,.coupon-btn{
+	width: 50%;
+	height: 100%;
+	background: #FF7777;
+	text-align: center;
+	line-height: 80upx;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-top-left-radius: 50upx;
+	border-bottom-left-radius: 50upx;
+}
+.coupon-btn{
+	background: #F2162F;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 50upx;
+	border-bottom-right-radius: 50upx;
+}
+.recommend-list{
+	width: calc(100% - 58upx);
+	width: 100%;
+	/* padding: 0 20upx; */
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 36upx;
+}
+.goods-desc-list{
+	width: 100%;
+	height: auto;
+	margin-top: 36upx;
+}
+.goods-desc-list .imgs{
+	width: 100%;
+	/* height: auto; */
+}

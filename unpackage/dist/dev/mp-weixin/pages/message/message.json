@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "common-title": "/components/titile/title",
+    "ygc-refresh": "/components/ygc-refresh/ygc-refresh"
+  }
+}

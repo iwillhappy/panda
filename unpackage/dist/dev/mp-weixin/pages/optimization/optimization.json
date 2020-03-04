@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "熊优选",
+  "usingComponents": {
+    "common-title-near": "/components/titile-near/title",
+    "share-box": "/components/share/share-box"
+  }
+}

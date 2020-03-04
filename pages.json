@@ -1,0 +1,366 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false,
+					"animationType":"slide-in-slide-in-left"
+				}
+			}
+		},
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "",//启动页
+				"app-plus": {
+					"titleNView": false,
+					"animationType":"slide-in-right"
+				}
+			}
+		},
+		{
+			"path": "pages/optimization/optimization",
+			"style": {
+				"navigationBarTitleText": "熊优选",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/optimization/oneKeyShare",
+			"style": {
+				"navigationBarTitleText": "一键分享",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/saveMoney/saveMoney",
+			"style": {
+				"navigationBarTitleText": "省钱工具",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单明细",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "", //登录
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/search/searchDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/message/messageDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/signIn/signin",
+			"style": {
+				"navigationBarTitleText": "签到中心",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/goodsClassification/goodsClassification",
+			"style": {
+				"navigationBarTitleText": "商品分类",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/newDriver/newDriver",
+			"style": {
+				"navigationBarTitleText": "帮助与咨询",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/newDriver/questionDetail",
+			"style": {
+				"navigationBarTitleText": "问题详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/specialArea/specialArea",
+			"style": {
+				"navigationBarTitleText": "9.9专区",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/user-info",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/captial-mingx",
+			"style": {
+				"navigationBarTitleText": "资金明细",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/about-panda",
+			"style": {
+				"navigationBarTitleText": "关于熊猫优选",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/problem-feedback",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/edit-pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/cash-withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/share-panda",
+			"style": {
+				"navigationBarTitleText": "分享熊猫优选",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/shopCar/shop-car",
+			"style": {
+				"navigationBarTitleText": "我的购物车",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/browseFootprints/browse-footprints",
+			"style": {
+				"navigationBarTitleText": "浏览足迹",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/myFans/my-fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/myEncourageMoney/my-encourage-money",
+			"style": {
+				"navigationBarTitleText": "我的鼓励金",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/activityRules/activity-rules",
+			"style": {
+				"navigationBarTitleText": "活动规则",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/orderBack/order-back",
+			"style": {
+				"navigationBarTitleText": "订单找回",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/goodDetail/good-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ff9dab",
+		"selectedColor": "#f4637a",
+		"borderStyle": "#f4637a",
+		"blurEffect":"extralight",
+		"backgroundColor": "#FFFFFF",
+		"fontSize":"12px",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabBar/home1.png",
+				"selectedIconPath": "static/tabBar/home2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/optimization/optimization",
+				"iconPath": "static/tabBar/you1.png",
+				"selectedIconPath": "static/tabBar/you2.png",
+				"text": "优选"
+			}, {
+				"pagePath": "pages/saveMoney/saveMoney",
+				"iconPath": "static/tabBar/tool1.png",
+				"selectedIconPath": "static/tabBar/tool2.png",
+				"text": "省钱工具"
+			}, {
+				"pagePath": "pages/order/order",
+				"iconPath": "static/tabBar/car1.png",
+				"selectedIconPath": "static/tabBar/car2.png",
+				"text": "订单"
+			},{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/tabBar/me1.png",
+				"selectedIconPath": "static/tabBar/me2.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,111 @@
+.content{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color: #333333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.page-section{
+	width: 100%;
+	height:75%;
+	background:#FFFFFF;
+}
+.page-section .page-section-spacing,.page-section .swiper-item,.page-section .swiper{
+	width: 100%;
+	height: 100%;
+}
+.login-btn{
+	width:600upx;
+	height:100upx;
+	background:linear-gradient(270deg,rgba(241,83,131,1) 0%,rgba(254,170,80,1) 100%);
+	box-shadow:0px 10px 30px rgba(92,15,45,0.2);
+	opacity:1;
+	border-radius:30upx;
+	margin-top: 75upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+}
+.wx-login-icon{
+	width: 58upx;
+	height: 48upx;
+}
+.wx-login-text{
+	font-size:15px;
+	font-family:Poppins;
+	font-weight:bold;
+	line-height:25px;
+	color:rgba(255,255,255,1);
+	opacity:1;
+	margin-left: 30upx;
+}
+.login-type-content{
+	width: 600upx;
+	height: 60upx;
+	margin-top:56upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size:15px;
+	font-family:Poppins;
+	font-weight:bold;
+	line-height:25px;
+	color:rgba(244,99,122,1);
+	opacity:1;
+}
+.register-btn{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+.register-icon{
+	width: 34upx;
+	height: 30upx;
+	margin-right: 10upx;
+}
+
+.box{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+.big-title{
+		height:100upx;
+		font-size:36px;
+		font-family:Alibaba PuHuiTi;
+		font-weight:bold;
+		line-height:55px;
+		color:rgba(17,26,42,1);
+		opacity:1;
+		margin: 145upx 0 18upx 0;
+		/* #ifdef MP-WEIXIN */
+		margin: 40upx 0 18upx 0;
+		/* #endif */
+	}
+	.small-title{
+		font-size:14px;
+		font-family:Alibaba PuHuiTi;
+		font-weight:400;
+		line-height:22px;
+		color:rgba(107,119,141,1);
+		opacity:1;
+	}
+	.mainPic{
+		width:543upx ;
+		height: 520upx;
+		margin-top: 111upx;
+	}
+	.panda{
+		width: 277upx;
+		height: 105upx;
+		margin-top: 67upx;
+	}

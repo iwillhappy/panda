@@ -1,0 +1,212 @@
+.content{
+width: 100%;
+height: 100%;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+.search-top{
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	/* #ifdef MP-WEIXIN */
+	margin-top: 20upx;
+	/* #endif */
+}
+.search-title{
+	display: block;
+	float: left;
+	width: calc(100% - 51upx);
+	height: 83upx;
+	margin-top: 80upx;
+	/* #ifdef H5 */
+	margin-top: 20upx;
+	/* #endif */
+	background: #FFFFFF;
+	font-size:20px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:83upx;
+	color:rgba(81,92,111,1);
+	opacity:1;
+	padding-left: 51upx;
+	margin-bottom: 20upx;
+}
+.search-box{
+	width:649upx;
+	height:72upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9upx 18upx rgba(0,0,0,0.16);
+	opacity:1;
+	border-radius:18upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+.close-btn{
+	position: absolute;
+	right: 12upx;
+	top: 20upx;
+	width: 32upx;
+	height: 32upx;
+}
+.search-icon{
+	width: 24upx;
+	height:24upx ;
+	margin: 0 18upx 0 25upx;
+}
+.search-input{
+	width:75% ;
+	height: 60upx;
+	background: #FFFFFF;
+	font-size: 14px;
+	color: #333333;
+	line-height: 30upx;
+	border: none;
+	outline: none;
+}
+.input-placeholder{
+	height:30upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(107,119,141,1);
+	opacity:0.5;
+}
+.search-history{
+	width:649upx;
+	height:50upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 26upx 0 20upx 0;
+}
+.history-goods{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(81,92,111,1);
+	letter-spacing:0.5px;
+	opacity:0.5;
+}
+.clear-btn{
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	color:rgba(244,99,122,1);
+	letter-spacing:0.5px;
+	opacity:1;
+	
+}
+.scroll-history{
+	width: 100%;
+	white-space: nowrap;
+	height: 130upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60upx;
+	
+}
+.scroll-view_H{
+	width: 100%;
+	height: 100%;
+}
+
+.history-item{
+	display: inline-block;
+	width:335upx;
+	height:107upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 14px 27px rgba(231,234,240,1);
+	opacity:1;
+	border-radius:18upx;
+	margin-left: 18upx;
+}
+.item-box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 14upx;
+}
+.good-icon{
+	width: 72upx;
+	height: 72upx;
+	margin-right: 16upx;
+}
+.goods-info{
+	width: calc(100% - 100upx);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.good-name{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:500;
+	line-height:38upx;
+	color:rgba(81,92,111,1);
+	opacity:1;
+}
+.good-price{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.price{
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:38upx;
+	color:rgba(81,92,111,1);
+	opacity:1;
+	margin-right: 16upx;
+}
+.discount{
+	font-size:12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:38upx;
+	color:rgba(244,99,122,1);
+	opacity:1;
+}
+.search-keyword{
+	width:649upx;
+	height: auto;
+	background: #FFFFFF;
+	padding: 0 51upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.keyword-item{
+	background:rgba(255,255,255,1);
+	opacity:1;
+	border-radius:9upx;
+	padding: 16upx 20upx;
+	font-size: 14px;
+	margin-right: 20upx;
+	margin-bottom: 20upx;
+	
+}

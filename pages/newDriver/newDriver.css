@@ -1,0 +1,175 @@
+.content{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	padding-top: 158upx;
+	/* #ifdef H5 */
+	padding-top: 118upx;
+	/* #endif */
+	/* #ifdef MP-WEIXIN */
+	padding-top: 0;
+	/* #endif */
+	letter-spacing: 0.5px;
+	
+}
+.message-title{
+	width: 100%;
+	height: 78upx;
+	display: inline-block;
+	padding-top: 80upx;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef H5 */
+	height: 78upx;
+	padding-top: 40upx;
+	/* #endif */
+	background: #FFFFFF;
+	
+	z-index: 10;
+}
+.list-scroll-content{
+    height: auto;
+		padding: 0upx 45upx 0 45upx;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		background: #FFFFFF;
+}
+/* .nopadding{
+	padding: 0;
+} */
+/*6大板块*/
+.help-block{
+	width:100%;
+	height:351upx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9upx 36upx rgba(0,0,0,0.16);
+	opacity:1;
+	border-radius:27upx;
+	margin-top: 50upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.block-item{
+	width: 33%;
+	height: 175upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid rgba(114,124,142,0.1);
+	border-right: 1px solid rgba(114,124,142,0.1);
+}
+.item-img01{
+	width: 58upx;
+	height: 58upx;
+}
+.item-img02{
+	width: 54upx;
+	height: 58upx;
+}
+.item-img03{
+	width: 58upx;
+	height: 58upx;
+}
+.item-img04{
+	width: 47upx;
+	height: 58upx;
+}
+.item-img05{
+	width: 58upx;
+	height: 58upx;
+}
+.item-img06{
+	width: 43upx;
+	height: 58upx;
+}
+.item-text{
+	font-size:13px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	margin-top: 14upx;
+}
+.block-item:nth-child(4),.block-item:nth-child(5),.block-item:nth-child(6){
+	border-bottom: none;
+}
+.block-item:nth-child(3),.block-item:nth-child(6){
+	border-right: none;
+}
+/*背景图*/
+.newDriver-bg{
+	width: 495upx;
+	height: 220upx;
+	margin-top: 40upx;
+}
+.question{
+	width:calc(100% - 80upx);
+	height:40upx;
+	font-size:18px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:600;
+	line-height:40upx;
+	color:rgba(17,23,57,1);
+	opacity:1;
+	margin-bottom:20upx ;
+	padding-left: 80upx;
+}
+.question-block{
+	width:calc(100% - 76upx);
+	min-height: 246upx;
+	height:auto;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 9upx 36upx rgba(0,0,0,0.16);
+	opacity:1;
+	border-radius:27upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 38upx;
+	/* line-height: 50upx; */
+}
+.question-detail{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100upx;
+	border-bottom: 1px solid rgba(114,124,142,0.1);
+}
+.question-text{
+	height:31upx;
+	font-size:14px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:31upx;
+	color:rgba(107,119,141,1);
+	opacity:1;
+}
+.qusetion-icon{
+	width: 40upx;
+	height: 40upx;
+}
+.question-block :last-child{
+	border-bottom: none;
+}
+/*手风琴*/
+.answer{
+	font-size: 12px;
+	font-family:Alibaba PuHuiTi;
+	font-weight:400;
+	line-height:40upx;
+	color:rgba(107,119,141,1);
+	opacity:1;
+	padding: 13upx 0;
+}

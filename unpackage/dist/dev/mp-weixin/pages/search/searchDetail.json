@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "good": "/components/goods/good",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

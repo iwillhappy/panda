@@ -1,0 +1,6 @@
+<view class="content"><view class="list-scroll-content nopadding"><image class="newDriver-bg" src="../../static/common/newDriver-bg.png"></image><view class="question" style="margin-top:36rpx;">常见问题</view><view class="question-block"><uni-collapse vue-id="1" accordion="true" bind:__l="__l" vue-slots="{{['default']}}"><uni-collapse-item vue-id="{{('2')+','+('1')}}" title="1.什么是熊猫优选？" bind:__l="__l" vue-slots="{{['default']}}"><view class="answer">在分析经济风靡的今天，熊猫优选是一款可以利用碎片化
+			            时间分享赚钱的手机app。淘宝商家为了在竞争中获得有
+			            利位置，会给商品设置隐藏优惠券及高额推广佣金。
+			            熊猫优选目前设有两种模式：网购省钱、推广赚钱
+			            网购省钱：购买含内部优惠券的超值商品，除了享受省钱
+			            购买外，系统还送鼓励金</view></uni-collapse-item><uni-collapse-item vue-id="{{('3')+','+('1')}}" title="2.如何使用熊猫优选网购省钱？" bind:__l="__l" vue-slots="{{['default']}}"><view class="answer">手风琴效果</view></uni-collapse-item><uni-collapse-item vue-id="{{('4')+','+('1')}}" title="3.如何绑定支付宝账号？" bind:__l="__l" vue-slots="{{['default']}}"><view class="answer">手风琴效果</view></uni-collapse-item></uni-collapse></view></view></view>
